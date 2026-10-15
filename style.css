@@ -1,0 +1,46 @@
+body{
+    background-color:#8B0000;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+
+    margin:0;
+    <div class="bear">
+🐻
+</div>
+
+}
+
+h1{
+    font-size:3rem;
+    text-align:center;
+}
+
+button{
+    padding:15px 30px;
+    margin:10px;
+
+    font-size:1.2rem;
+
+    cursor:pointer;
+}
+.bear{
+    font-size:120px;
+    animation:bounce 1s infinite alternate;
+}
+@keyframes bounce{
+    from{
+        transform:translateY(0px);
+    }
+
+    to{
+        transform:translateY(-15px);
+    }
+}
+
